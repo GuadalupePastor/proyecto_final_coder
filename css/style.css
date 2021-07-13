@@ -1,0 +1,146 @@
+ /*Resert*/
+
+ /* Barra de menu */
+li, a, button, form, table {
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+* { /* selector universal */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/*Menu inicio */
+
+.nav_links {
+    list-style: none;
+    
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 30px;
+    align-items: center;
+}
+
+/* Imagen del body */
+body 
+
+/* Color de los titulos */
+h1{
+
+    color: black;
+    font-size: 40px;
+    font-family: "Tenor Sans" sans-serif;
+    align-items: center;
+}
+
+
+/* Posicion del header */
+header { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 5%;
+    background-color: rgba(32, 32, 36, 0.8)
+}
+
+/*Estilo de los parrafos */
+p {
+    font-family: "Tenor Sans", sans-serif;
+    font-weight:500 ;
+    font-size: 20px;
+    color: black;
+
+}
+
+.container{
+    margin: auto;
+    width: 800px;
+    padding: 30px;
+    }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 5%;
+    background-color: rgba(32, 32, 36, 0.8)
+}
+
+.header .container {
+    max-width: 950px;
+    /* background-color: burlywood; */
+    height: 70px;
+    margin: auto;
+}
+
+
+
+header nav .menu li {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    list-style: none;
+}
+
+header {
+    width: 55rem;
+    height: auto;
+}
+
+
+
+nav {
+    background-color: salmon;
+    color: burlywood;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+nav {
+    list-style: circle;
+}
+
+nav ul li  {
+    
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+footer {
+    width: 100%;
+    background-color: grey;
+    color: whitesmoke;
+    padding:20px;
+    margin: 10px;
+}
+
+.containerfooter{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: center;
+    position: relative;
+    width: 100%;
+    }
